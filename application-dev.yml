@@ -1,10 +1,12 @@
 
-
-agenda:
-  lesson:
-    status:
-      booked: booked
-      canceled: canceled
+spring:
+  application:
+    globalconstants:
+      agenda:
+        lesson:
+          status:
+            booked: booked
+            canceled: canceled
 
 
 
