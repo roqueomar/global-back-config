@@ -1,0 +1,11 @@
+
+
+agenda:
+  lesson:
+    status:
+      booked: booked
+      canceled: canceled
+
+
+
+
