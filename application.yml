@@ -5,7 +5,7 @@ spring:
       agenda:
         lesson:
           status:
-            booked: booked
+            booked: booked1
             canceled: canceled
 
 
