@@ -8,8 +8,10 @@ spring:
             booked: booked
             canceled: canceled
     errors:
-      code: E-101
-      message: The lesson has been already booked, it is not possible modified it.
+      E_101:
+        message: The lesson has already been booked, it is not possible to modify it.
+      E_102:
+        message: Another type of error message...
 
 
 
