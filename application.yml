@@ -8,13 +8,16 @@ spring:
             booked: booked
             canceled: canceled
     errors:
+      invalid_token:
+        code: AU-101
+        message: Invalid token.
       lesson_already_booked:
-        code: E-101
+        code: AG-101
         message: The lesson has already been booked, it is not possible to modify it.
       canceled_lesson:
-        code: E-102
+        code: AG-102
         message: Another type of error message...
-
-
-
+      general:
+        code: GE-101
+        message: Unknow error
 
